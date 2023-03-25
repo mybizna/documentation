@@ -28,8 +28,8 @@ php artisan serve
 
 Installing the MyBizna-Core WordPress plugin can be done by manual installation as illustrated below.&#x20;
 
-* Step 1: Download the Plugin Firstly, you need to download the MyBizna-Core plugin from https://mybizna.com/downloads.
-* Step 2: Access WordPress Dashboard Log in to your WordPress dashboard and go to the "Plugins" section by clicking on "Plugins" from the left-hand side menu. After that, click on "Add New."
+* **Step 1:** Download the Plugin Firstly, you need to download the MyBizna-Core plugin from https://mybizna.com/downloads.
+* **Step 2:** Access WordPress Dashboard Log in to your WordPress dashboard and go to the "Plugins" section by clicking on "Plugins" from the left-hand side menu. After that, click on "Add New."
 *   **Step 3:** Upload the Plugin On the "Add Plugins" page, click on the "Upload Plugin" button that is located at the top of the page. A new page will appear where you can upload the plugin. Click on the "Choose File" button, navigate to the location where you saved the plugin ZIP file, select it, and then click on the "Install Now" button.
 
     &#x20;OR&#x20;
