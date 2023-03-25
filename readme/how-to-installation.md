@@ -1,6 +1,32 @@
 # How to Installation
 
-Installing  MyBizna-Core Wordpress plugin can be down by manual installation as illustrated below.&#x20;
+Mybizna can be installed in either of the following two ways.
+
+* [How to Install on Laravel ](how-to-installation.md#how-to-install-on-laravel)
+* [How to Install in WordPress](how-to-installation.md#how-to-install-on-wordpress)
+
+### How to Install on Laravel
+
+```
+composer create-project laravel/laravel:^9.0 mybizna
+
+cd mybizna/
+
+composer require mybizna/account
+
+// Configure Database in .env
+
+php artisan module:enable
+
+php artisan key:generate
+
+php artisan serve
+
+```
+
+### How to install on WordPress
+
+Installing the MyBizna-Core WordPress plugin can be done by manual installation as illustrated below.&#x20;
 
 * Step 1: Download the Plugin Firstly, you need to download the MyBizna-Core plugin from https://mybizna.com/downloads.
 * Step 2: Access WordPress Dashboard Log in to your WordPress dashboard and go to the "Plugins" section by clicking on "Plugins" from the left-hand side menu. After that, click on "Add New."
