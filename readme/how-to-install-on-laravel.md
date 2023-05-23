@@ -48,6 +48,11 @@ DB_PORT=3306
 DB_DATABASE=[Your_DB_Name]
 DB_USERNAME=[Your_DB_Username]
 DB_PASSWORD=[Your_DB_Password]
+
+CACHE_DRIVER=database
+SESSION_DRIVER=database
+SESSION_DOMAIN=
+SANCTUM_STATEFUL_DOMAINS=
 ```
 
 ### Step 5 <a href="#9853" id="9853"></a>
