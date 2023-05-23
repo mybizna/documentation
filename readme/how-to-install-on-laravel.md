@@ -88,7 +88,12 @@ Publish the following;
 <pre><code><strong>php artisan cache:table
 </strong></code></pre>
 
-2. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
+2.  Publish assets and database migration for adding username,phone and email to user table in the database:
+
+    ```
+    php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
+    ```
+3. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
 
 ```
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
