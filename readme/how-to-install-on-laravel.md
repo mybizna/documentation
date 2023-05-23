@@ -149,3 +149,5 @@ Start the development server Start the Laravel development server using the foll
 ```
 php artisan serve
 ```
+
+open the link http://127.0.0.1:8000/manage
