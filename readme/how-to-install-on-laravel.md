@@ -81,7 +81,14 @@ use HasRoles;
 
 ### Step 7 <a href="#6cf5" id="6cf5"></a>
 
-Publish the permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
+Publish the following;
+
+1. To generate the cache table use the php artisan cache:table command.co
+
+<pre><code><strong>php artisan cache:table
+</strong></code></pre>
+
+2. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
 
 ```
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
