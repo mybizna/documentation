@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Getting started](README.md)
-  * [How to Installation](readme/how-to-installation.md)
+  * [How to install on Laravel](readme/how-to-install-on-laravel.md)
+  * [How to Installation in WordPress](readme/how-to-installation-in-wordpress.md)
   * [How to Participate](readme/how-to-participate.md)
 * [Modules](modules/README.md)
   * [Creating Entity.php](modules/creating-entity.php.md)

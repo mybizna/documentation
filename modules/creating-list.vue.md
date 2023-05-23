@@ -7,7 +7,7 @@
         :setting="{ hide_delete_button: true }">
 
         <template #header>
-            <th-render>Name</th-render>
+            <th-render>Title</th-render>
             <th-render>Slug</th-render>
         </template>
 
@@ -23,7 +23,7 @@
 export default {
     data() {
         return {
-            table_fields:['name', 'slug']
+            table_fields:['title', 'slug']
         };
     },
 };
