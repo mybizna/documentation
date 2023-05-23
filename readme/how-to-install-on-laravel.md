@@ -104,13 +104,29 @@ php artisan automigrator:migrate
 
 ### Step 9 <a href="#7276" id="7276"></a>
 
+Create a dummy user called _**John Doe**_ Using tinker:
+
+```
+php artisan tinker
+
+$user = new App\Models\User();
+$user->password = Hash::make('johndoe');
+$user->email = 'johndoe@johndoe.com';
+$user->name = 'John Doe';
+$user->username = 'johndoe';
+$user->phone = '0723232323';
+$user->save();
+```
+
+### Step 10 <a href="#7276" id="7276"></a>
+
 Enable Laravel ERP modules Enable the Laravel ERP modules using the following command:
 
 ```
 php artisan module:enable
 ```
 
-### Step 10 <a href="#7535" id="7535"></a>
+### Step 11 <a href="#7535" id="7535"></a>
 
 Run additional Laravel ERP migrations Run the following command to perform additional migrations specific to Laravel ERP:
 
@@ -118,7 +134,7 @@ Run additional Laravel ERP migrations Run the following command to perform addit
 php artisan mybizna:dataprocessor
 ```
 
-### Step 11 <a href="#80d7" id="80d7"></a>
+### Step 12 <a href="#80d7" id="80d7"></a>
 
 Generate an application key Generate an application key by running the following command:
 
@@ -126,7 +142,7 @@ Generate an application key Generate an application key by running the following
 php artisan key:generate
 ```
 
-### Step 12 <a href="#b1df" id="b1df"></a>
+### Step 13 <a href="#b1df" id="b1df"></a>
 
 Start the development server Start the Laravel development server using the following command:
 
