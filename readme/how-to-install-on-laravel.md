@@ -83,7 +83,7 @@ use HasRoles;
 
 Publish the following;
 
-1. To generate the cache table use the php artisan cache:table command.co
+1. To generate the cache table use the php artisan cache:table command.
 
 <pre><code><strong>php artisan cache:table
 </strong></code></pre>
