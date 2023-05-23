@@ -102,20 +102,20 @@ Run database migrations To create the necessary database tables, run the followi
 php artisan automigrator:migrate
 ```
 
-### Step 9 <a href="#7535" id="7535"></a>
-
-Run additional Laravel ERP migrations Run the following command to perform additional migrations specific to Laravel ERP:
-
-```
-php artisan mybizna:dataprocessor
-```
-
-### Step 10 <a href="#7276" id="7276"></a>
+### Step 9 <a href="#7276" id="7276"></a>
 
 Enable Laravel ERP modules Enable the Laravel ERP modules using the following command:
 
 ```
 php artisan module:enable
+```
+
+### Step 10 <a href="#7535" id="7535"></a>
+
+Run additional Laravel ERP migrations Run the following command to perform additional migrations specific to Laravel ERP:
+
+```
+php artisan mybizna:dataprocessor
 ```
 
 ### Step 11 <a href="#80d7" id="80d7"></a>
