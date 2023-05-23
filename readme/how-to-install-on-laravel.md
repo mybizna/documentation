@@ -19,7 +19,7 @@ Before proceeding with the installation, make sure you have the following prereq
 Create a new Laravel project Open your terminal or command prompt and navigate to the directory where you want to create your Laravel ERP project. Run the following command to create a new Laravel project:
 
 ```
-composer create-project laravel/laravel:^9.0 mybizna
+composer create-project laravel/laravel:9.0 mybizna
 ```
 
 ### **Step 2** <a href="#cec0" id="cec0"></a>
@@ -88,12 +88,13 @@ Publish the following;
 <pre><code><strong>php artisan cache:table
 </strong></code></pre>
 
-2.  Publish assets and database migration for adding username,phone and email to user table in the database:
+2. Publish assets and database migration for adding username,phone and email to user table in the database:
 
-    ```
-    php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
-    ```
-3. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
+```
+php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
+```
+
+2. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
 
 ```
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
