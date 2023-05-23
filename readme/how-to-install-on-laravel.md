@@ -119,6 +119,7 @@ $user = new App\Models\User();
 $user->password = Hash::make('johndoe');
 $user->email = 'johndoe@johndoe.com';
 $user->name = 'John Doe';
+$user->is_admin = 1;
 $user->username = 'johndoe';
 $user->phone = '0723232323';
 $user->save();
