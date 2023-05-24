@@ -101,6 +101,16 @@ php artisan session:table
 php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
 ```
 
+&#x20;Add Sanctum's middleware to your `api` middleware group within your application's `app/Http/Kernel.php` file:
+
+```
+'api' => [
+            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+            'throttle:api',
+            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+        ],
+```
+
 * Publish assets and database migration for adding username,phone and email to user table in the database:
 
 <pre><code><strong>php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
