@@ -1,7 +1,8 @@
 ---
 description: >-
-  Laravel ERP is a powerful enterprise resource planning (ERP) system built on
-  the Laravel framework.
+  Mybizna is an open-source ERP (Enterprise Resource Planning) solution for
+  Laravel. It is developed using laravel which is a web application framework
+  with expressive, elegant syntax.
 ---
 
 # How to install on Laravel
