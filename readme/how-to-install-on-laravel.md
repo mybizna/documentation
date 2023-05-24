@@ -158,3 +158,5 @@ php artisan serve
 ```
 
 open the link http://127.0.0.1:8000/manage
+
+Login using Username: johndoe and Password johndoe
