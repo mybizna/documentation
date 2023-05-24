@@ -83,18 +83,23 @@ use HasRoles;
 
 Publish the following;
 
-1. To generate the cache table use the php artisan cache:table command.
+* To generate the cache table use the php artisan cache:table command.
 
 <pre><code><strong>php artisan cache:table
 </strong></code></pre>
 
-2. Publish assets and database migration for adding username,phone and email to user table in the database:
+* To generate the session table use the command below
 
 ```
-php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
+php artisan session:table
 ```
 
-2. Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
+* Publish assets and database migration for adding username,phone and email to user table in the database:
+
+<pre><code><strong>php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
+</strong></code></pre>
+
+* Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
 
 ```
 php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
