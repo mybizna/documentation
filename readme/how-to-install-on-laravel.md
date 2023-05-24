@@ -19,7 +19,7 @@ Before proceeding with the installation, make sure you have the following prereq
 Create a new Laravel project Open your terminal or command prompt and navigate to the directory where you want to create your Laravel ERP project. Run the following command to create a new Laravel project:
 
 ```
-composer create-project laravel/laravel:9.0 mybizna
+composer create-project laravel/laravel:^9.0 mybizna
 ```
 
 ### **Step 2** <a href="#cec0" id="cec0"></a>
