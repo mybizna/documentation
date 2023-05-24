@@ -1,7 +1,7 @@
 ---
 description: >-
   Mybizna is an open-source ERP (Enterprise Resource Planning) solution for
-  Laravel. It is developed using laravel which is a web application framework
+  Laravel. It is developed using Laravel which is a web application framework
   with expressive, elegant syntax.
 ---
 
