@@ -95,6 +95,12 @@ Publish the following;
 php artisan session:table
 ```
 
+* Publish Laravel Santrum migration files to be used to login to Mybizna ERP API.
+
+```
+php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+```
+
 * Publish assets and database migration for adding username,phone and email to user table in the database:
 
 <pre><code><strong>php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
