@@ -84,22 +84,18 @@ use HasRoles;
 
 Publish the following;
 
-* To generate the cache table use the php artisan cache:table command.
-
-<pre><code><strong>php artisan cache:table
-</strong></code></pre>
-
-* To generate the session table use the command below
-
-```
-php artisan session:table
-```
-
-* Publish Laravel Santrum migration files to be used to login to Mybizna ERP API.
-
-```
+<pre class="language-sh" data-line-numbers><code class="lang-sh"><strong>php artisan cache:table
+</strong>php artisan session:table
 php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-```
+php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+</code></pre>
+
+* 1 is for generating the **cache** table used in managing system cache.
+* 2 is for generate the **session** table used for managing system session using database.
+* 3 is for publishing **santrum** migration files to be used to login to Mybizna ERP API.
+* 4 is for publishing assets and database migration for adding username, phone, and email to the **users** table in the database.
+* 5 is for publishing permissions configuration provided by the **Spatie/Permission** package.
 
 &#x20;Add Sanctum's middleware to your `api` middleware group within your application's `app/Http/Kernel.php` file:
 
@@ -109,17 +105,6 @@ php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
             'throttle:api',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
-```
-
-* Publish assets and database migration for adding username,phone and email to user table in the database:
-
-<pre><code><strong>php artisan vendor:publish --provider="Mybizna\Assets\Providers\MybiznaAssetsProvider"
-</strong></code></pre>
-
-* Permissions configuration Run the following command to publish the permissions configuration provided by the Spatie/Permission package:
-
-```
-php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
 ```
 
 ### Step 8 <a href="#f4e1" id="f4e1"></a>
