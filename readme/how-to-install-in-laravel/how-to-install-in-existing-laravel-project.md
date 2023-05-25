@@ -95,7 +95,7 @@ php artisan automigrator:migrate
 
 ### Step 7 <a href="#7276" id="7276"></a>
 
-Create a dummy user called _**John Doe**_ Using tinker:
+If no user exist, create a dummy user called _**John Doe**_ Using tinker:
 
 ```
 php artisan tinker
