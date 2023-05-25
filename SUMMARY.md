@@ -1,8 +1,9 @@
 # Table of contents
 
 * [Getting started](README.md)
-  * [How to install as New Laravel Project](readme/how-to-install-as-new-laravel-project.md)
-  * [How to install in Existing  Laravel Project](readme/how-to-install-in-existing-laravel-project.md)
+  * [How to Install in Laravel](readme/how-to-install-in-laravel/README.md)
+    * [How to install in Existing  Laravel Project](readme/how-to-install-in-laravel/how-to-install-in-existing-laravel-project.md)
+    * [How to install as New Laravel Project](readme/how-to-install-in-laravel/how-to-install-as-new-laravel-project.md)
   * [How to Installation in WordPress](readme/how-to-installation.md)
   * [How to Participate](readme/how-to-participate.md)
 * [Modules](modules/README.md)

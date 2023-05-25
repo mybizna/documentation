@@ -5,7 +5,7 @@ description: >-
   with expressive, elegant syntax.
 ---
 
-# How to install on Laravel
+# How to install as New Laravel Project
 
 ## Prerequisites <a href="#f144" id="f144"></a>
 
