@@ -15,6 +15,16 @@ Before proceeding with the installation, make sure you have the following prereq
 2. Composer (Dependency Manager for PHP)
 3. MySQL or any other compatible database server
 
+## Quick Installation <a href="#f144" id="f144"></a>
+
+To Quickly install the system run the following command.
+
+```
+curl -o mybizna_install.sh https://raw.githubusercontent.com/mybizna/mybizna/main/mybizna_install.sh && chmod +x mybizna_install.sh && ./mybizna_install.sh . mybizna
+```
+
+## Step By Step Installation <a href="#f144" id="f144"></a>
+
 ### Step 1 <a href="#b19d" id="b19d"></a>
 
 Create a new Laravel project Open your terminal or command prompt and navigate to the directory where you want to create your Laravel ERP project. Run the following command to create a new Laravel project:
