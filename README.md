@@ -20,3 +20,10 @@ Mybizna is an open-source ERP (Enterprise Resource Planning) solution for Larave
 
 * PHP 8.1^
 
+## Quick Installation <a href="#f144" id="f144"></a>
+
+To Quickly install the system run the following command.
+
+```
+composer create-project mybizna/setup mybizna
+```
