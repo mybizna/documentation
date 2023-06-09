@@ -20,7 +20,7 @@ Before proceeding with the installation, make sure you have the following prereq
 To Quickly install the system run the following command.
 
 ```
-curl -o mybizna_install.sh https://raw.githubusercontent.com/mybizna/mybizna/main/mybizna_install.sh && chmod +x mybizna_install.sh && ./mybizna_install.sh . mybizna
+composer create-project mybizna/setup mybizna
 ```
 
 ## Step By Step Installation <a href="#f144" id="f144"></a>
